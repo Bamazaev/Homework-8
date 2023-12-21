@@ -5,18 +5,20 @@
 .main-contener{
     display: flex;
     justify-content: space-evenly;
+    background-size: 300% 300%;
     width: 100%;
-    background-color: #F1F1F1;
     height: auto;
+    background: linear-gradient(45deg,red,black,#219F0D, blue)
+
 }
 .right{
     width: 923px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.103);
     margin-top: 16px;
     margin-bottom: 16px;
     padding-bottom: 25px;
     padding-left: 25px;
-    padding-top: 25px;
+    padding-top: 60px;
     padding-right: 25px;
     box-shadow: 
     2px 2px 15px rgba(0, 0, 0, 0.055),
@@ -27,7 +29,7 @@
     height: auto;
     margin-top: 16px;
     margin-bottom: 16px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.116);
     padding-bottom: 25px;
     box-shadow: 
     2px 2px 15px rgba(0, 0, 0, 0.055),
@@ -47,27 +49,27 @@
 }
 .left .foto img{
     width: 100%;
+    margin-left: 25px;
 }
-.foto{
-    position: relative;
-}
-.foto h1{
-    position: absolute;
-    color: black;
-    top: 380px;
-    left: 50px;
-    font-size: 45px;
-    
+.jobb2 img{
+    width: 25px;
+
 }
 .foto .text{
-    position: absolute;
     color: black;
-    top: 420px;
-    left: 50px;
-    font-size: 70px;
+    font-size: 90px;
     font-weight: 100;
+    padding-left: 40px;
+    color: #219F0D;
 }
-.job{
+.foto .text1{
+    color: black;
+    font-size: 70px;
+    font-weight: 600;
+    padding-left: 40px;
+    color: #219F0D;
+}
+.job, .jobb2{
     display: flex;
     align-items: center;
 }
@@ -75,7 +77,7 @@
     width: 6%;
 }
 .job1{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid white;
     margin: 0px 55px;
 }
 .pro1{
@@ -83,7 +85,18 @@
     height: 20px;
     background-color: #219F0D;
     border-radius: 10px;
-    
+}
+.pro2{
+    width: 75%;
+    height: 20px;
+    background-color: #219F0D;
+    border-radius: 10px;
+}
+.pro3{
+    width: 65%;
+    height: 20px;
+    background-color: #219F0D;
+    border-radius: 10px;
 }
 .num{
     text-align: center;
@@ -96,9 +109,12 @@
 }
 h2{
     font-weight: 400;
-    color: gray;
+    color: white;
     font-size: 18px;
     padding-left: 10px;
+}
+.language{
+    padding-left: 20px;
 }
 .language .ru{
     width: 50%;
@@ -106,19 +122,40 @@ h2{
 .language .eng{
     width: 30%;
 }
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.footer img{
-    width: 100px;
-}
-.FOOT{
-    font-size: 100px;
-    padding: 250px;
-
-}
 .right h1{
+    color: white;
+    padding-left: 25px;
+}
+p{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+.text3{
+    color: white;
+}
+.bor{
+    background-color: #219F0D;
+    border-bottom-right-radius: 55px;
+    width: 50%;
+}
+.bor .qr{
+    background: blueviolet;
+    color: pink;
+    fill: white;
+    
+}
+.qr{
+   width: 30%;
+   height: 30%;
+   margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
     color: #219F0D;
+    font-size: 20px;
 }
