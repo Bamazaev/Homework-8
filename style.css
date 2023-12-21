@@ -13,15 +13,22 @@
     width: 923px;
     background-color: white;
     margin-top: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
     box-shadow: 
     2px 2px 15px rgba(0, 0, 0, 0.055),
     -2px -2px 15px rgba(0, 0, 0, 0.055);
 }
 .left{
     width: 462px;
-    height: 1146px;
+    height: auto;
     margin-top: 16px;
+    margin-bottom: 16px;
     background-color: white;
+    padding-bottom: 25px;
     box-shadow: 
     2px 2px 15px rgba(0, 0, 0, 0.055),
     -2px -2px 15px rgba(0, 0, 0, 0.055);
@@ -46,16 +53,16 @@
 }
 .foto h1{
     position: absolute;
-    color: #219F0D;
-    top: 480px;
+    color: black;
+    top: 380px;
     left: 50px;
     font-size: 45px;
     
 }
 .foto .text{
     position: absolute;
-    color: #219F0D;
-    top: 520px;
+    color: black;
+    top: 420px;
     left: 50px;
     font-size: 70px;
     font-weight: 100;
@@ -88,8 +95,27 @@
     background-color: white;
 }
 h2{
-    font-weight: 200;
+    font-weight: 400;
     color: gray;
     font-size: 18px;
     padding-left: 10px;
+}
+.language .ru{
+    width: 50%;
+}
+.language .eng{
+    width: 30%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer img{
+    width: 100px;
+}
+.FOOT{
+    font-size: 100px;
+    padding: 250px;
+
 }
